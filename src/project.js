@@ -2208,7 +2208,7 @@ window.__require = function e(t, n, o) {
         cc._RF.push(t, "197e1hfNnxIcJx73V3VhUxY", "HttpManagerJs");
         var a = e("GameConfig")
           , i = (c(o = {
-            URL: "http://www.wesane.com/h5service.php/Interface/services",
+            // URL: "http://www.wesane.com/h5service.php/Interface/services",
             cacheList: null,
             isBusy: null,
             req: null,
@@ -2259,7 +2259,7 @@ window.__require = function e(t, n, o) {
             }
         }),
         c(o, "onDataHandler", function() {
-            if (404 != this.req.status) {
+            if (404 != this.req.status && false) {
                 if (4 == this.req.readyState && this.req.status >= 200 && this.req.status <= 207 && this.req.responseText) {
                     var e = JSON.parse(this.req.responseText);
                     this.isBusy = !1,
