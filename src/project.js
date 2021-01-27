@@ -2209,6 +2209,7 @@ window.__require = function e(t, n, o) {
         var a = e("GameConfig")
           , i = (c(o = {
             // URL: "http://www.wesane.com/h5service.php/Interface/services",
+            URL: "https://xpand.gitee.io/xigua",
             cacheList: null,
             isBusy: null,
             req: null,
