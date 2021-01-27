@@ -2260,7 +2260,7 @@ window.__require = function e(t, n, o) {
             }
         }),
         c(o, "onDataHandler", function() {
-            if (404 != this.req.status && false) {
+            if (404 != this.req.status) {
                 if (4 == this.req.readyState && this.req.status >= 200 && this.req.status <= 207 && this.req.responseText) {
                     var e = JSON.parse(this.req.responseText);
                     this.isBusy = !1,
